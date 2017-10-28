@@ -1,0 +1,73 @@
+* {
+	margin:0;
+	padding:0;
+	font-family: 'Lato', sans-serif;
+}
+
+
+header {
+	position:fixed;
+width: 875;
+	height: 100%;
+	background-image: url('https://static.wixstatic.com/media/672a2e_fd55924a2c75415bacefc2d5d6698833~mv2.jpg/v1/fill/w_621,h_661,al_c,q_90,usm_0.66_1.00_0.01/672a2e_fd55924a2c75415bacefc2d5d6698833~mv2.webp');
+    	background-repeat: no-repeat;
+    	background-size:100%;
+	top:0;
+	left: 0;
+	text-align:center;
+}
+
+
+header a {
+	background: #FF4500;
+	border-color:#FF0000;
+	text-decoration: none;
+	color:#FFF;
+	display: inline-block;
+	padding:20px 25px;
+	border:1px solid #fff;
+	border-radius:5px;
+
+
+
+
+}
+header a:hover {
+	background-color: #00BFFF;
+	color:#000;
+	box-shadow: 0 4px 5px #777;
+cursor: pointer;
+transition: background-color 1s;
+
+}
+
+
+
+.btn-1: {
+	transition: .5s;
+
+
+
+
+}
+
+.btn-2 {
+	transition: .5s;
+
+}
+
+.btn-3 {
+	transition: .5s;
+
+}
+
+.btn-4 {
+	transition: .5s;
+
+}
+
+.btn-1:active, .btn-2:active, .btn-3:active, .btn-4:active{
+  position:relative;
+  top:5px;
+  box-shadow:none;
+
